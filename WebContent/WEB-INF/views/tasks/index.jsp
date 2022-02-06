@@ -17,7 +17,6 @@
         </ul>
 
 
-        <p><a href="${psgeContext.request.contextPath}/new">新規タスク投稿</a></p>
-
+        <p><a href="${pageContext.request.contextPath}/new">タスク作成</a></p>
     </c:param>
 </c:import>
