@@ -12,7 +12,6 @@ import javax.servlet.annotation.WebFilter;
 
 /**
  * Servlet Filter implementation class EncodingFilter
- *
  */
 @WebFilter("/*")
 public class EncodingFilter implements Filter {
@@ -21,14 +20,14 @@ public class EncodingFilter implements Filter {
      * Default constructor.
      */
     public EncodingFilter() {
-        // TODO Auto-generated constructor stub
+
     }
 
     /**
      * @see Filter#destroy()
      */
     public void destroy() {
-        // TODO Auto-generated method stub
+
     }
 
     /**
@@ -41,14 +40,11 @@ public class EncodingFilter implements Filter {
         chain.doFilter(request, response);
     }
 
-
-
-
     /**
      * @see Filter#init(FilterConfig)
      */
     public void init(FilterConfig fConfig) throws ServletException {
-        // TODO Auto-generated method stub
+
     }
 
 }
